@@ -1,0 +1,57 @@
+
+body{
+
+	margin-top: 80px;
+}
+
+.pagination {
+	display: inline-block;
+}
+
+.pagination a {
+	color: black;
+	padding: 8px 8px;
+	text-decoration: none;
+}
+
+
+.button{
+	background-color: white;
+	border: none;
+	color: black;
+	padding: 5px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	
+}
+
+.button:hover{
+
+	background-color: #4CAF50;
+}
+
+video {
+	width: 80%;
+	height: auto;
+}
+
+@media(max-width: 695px){
+
+	.button{
+		background-color: white;
+		border: none;
+		color: black;
+		padding: 10px 0px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: pointer;
+
+	}
+}
